@@ -1,6 +1,6 @@
 /*################################
 
-    --program made by Jan Peix--
+    --program made by Fishman--
 
   ################################*/
 
