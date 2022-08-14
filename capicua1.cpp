@@ -21,13 +21,13 @@ int number_inverted(int n){
 int main()
 {
     int a, count=0, number;
-    cout<<"Insereix-hi un numero enter: ";
+    cout<<"Enter an integer value:: ";
     cin>>a;
 
     for (number=0; number<=a; number=number+1){
         if (number==number_inverted(number)){
             count+=1;
-            cout<<"El numero de capicuas que hi ha en un rang de 0 a "<<a<<" es de: "<<count<<" capicuas"<<endl;
+            cout<<"The number of capicuas that are in a range from 0 to "<<a<<" is of: "<<count<<" capicuas"<<endl;
         }
     }
 
