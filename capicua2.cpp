@@ -29,7 +29,7 @@ int main()
     for (number=a; number<=b; number=number+1){
         if (number==number_inverted(number)){
             count+=1;
-            cout<<"The number of capicuas in a range of "<<a<<" to "<<b<<" is of: "<<count<<" capicuas"<<endl;
+            cout<<"The number of palindromic numbers (capicuas) in a range of "<<a<<" to "<<b<<" is of: "<<count<<" palindromic numbers (capicuas)"<<endl;
         }
     }
 
